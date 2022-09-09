@@ -1,0 +1,139 @@
+.signup_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup {
+    width: 750px;
+    border: 1px solid #dadce0;
+    border-radius: 7px;
+    padding: 40px;
+    height: 80vh;
+    position: relative;
+}
+
+.s_figure {
+    text-align: center;
+    margin-right: 0;
+}
+
+.s_figureimg {
+    max-width: 100%;
+    width: 244px;
+    height: 244px;
+}
+
+.s_figcaptions {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.s_figcaptions {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.s_input {
+    margin-top: 40px;
+}
+
+.name_inputs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.name_input {
+    margin-right: 10px !important;
+}
+
+.s_password {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.p_wrap {
+    display: flex;
+    margin-top: 40px;
+}
+
+.namep_input {
+    margin-right: 10px !important;
+}
+
+.s_helpertext {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.75rem;
+    margin-top: 3px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.s_button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.s_btn {
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+}
+
+.signup_loading {
+    position: absolute !important;
+    top: 30px;
+    left: 10px;
+    width: 100% !important;
+}
+
+@media (max-width: 665px) {
+    .signup {
+        width: 80vw;
+        border: none;
+    }
+
+    .name_inputs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name_input {
+        margin-bottom: 20px !important;
+    }
+
+    .signup_loading {
+        top: -1px;
+        left: -30px;
+        right: 0;
+    }
+    .s_password {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .p_wrap{
+        display: flex;
+        flex-direction: column;
+    }
+  .signup_error{
+    color: #df3a64;
+  }  
+    
+}
+@media (max-width: 850px) {
+    .signup{
+        padding: 40px;
+        width: 50vw;
+        
+    }
+    .signup_cont{
+        flex-direction: column;
+        position: relative;
+    }
+    .s_figure{
+        display: none;
+    }
+}

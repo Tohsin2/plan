@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 190vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.videothumb_thumbnail {
+    width: inherit;
+    height: 137;
+    margin-bottom: 20px;
+}
+.videothumb_details{
+display: flex;
+}
+.videothumb{
+    margin: 25px;
+    margin-right: 0;
+    width: 230px;
+    height: 236px;
+    cursor: pointer;
+}
+.videothumb_title{
+    font-size: 0.9rem;
+    max-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+.videothumb_channel{
+    margin-left: 10px;
+}
+.videothumb_texts{
+    margin-top: 5px;
+}
+.videothumb_text{
+    font-size: 14px;
+    color: #666666 !important;
+}
+
+.avatar {
+    border-radius: 100%;
+    background-color: rgb(197, 193, 193);
+    width: 33px;
+    height: 4.5vh;
+    padding-left: 7px;
+    padding-top: 1.5px;
+    padding-top: 4px;
+
+}
+
+
+

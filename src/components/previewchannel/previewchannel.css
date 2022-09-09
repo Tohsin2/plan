@@ -1,0 +1,77 @@
+.channel_a{
+    width: 88vw;
+   height: 40vh;
+   
+}
+.c_person{
+    width: 80px !important;
+    height: 80px !important;
+    margin-right: 20px;
+    background-color: #dbdbdb;
+    border-radius: 100%;
+}
+.c_detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.c_personwrap{
+    display: flex;
+    align-items: center;
+}
+.channel_title{
+    font-size: 26px !important ;
+    margin: 10px;
+}
+.c_detailwrap{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+.watch_subbtn{
+    height: 40px !important;
+}
+.watch_subcount{
+    padding-left: 10px;
+}
+.links{
+    display: flex;
+    width: 50%;
+    margin-right: 300px;
+    margin-top: 20px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding-right: 45px;
+}
+.c_links > p{
+    color: white;
+    opacity: 0.5;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+.c_links  :hover  {
+    opacity: 1;
+}
+.c_lin{
+    height: 20px;
+}
+.c_lin{
+   border-bottom: 1px solid rgba(255, 255, 255, 0.392);
+   
+}
+
+.c_contentwrap{
+    margin-left: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+.channel{
+    overflow-y: scroll;
+}

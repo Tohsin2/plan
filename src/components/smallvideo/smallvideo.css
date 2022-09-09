@@ -1,0 +1,54 @@
+.videosmall{
+    display: flex;
+    margin-top: -50px;
+    width: 30vw;
+    min-height: 90px;
+    max-height: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+.videosmall :nth-child(){
+    margin-top: -50px;
+}
+.videosmall_left{
+    width: 10vw;
+    margin-right: 10px;
+}
+.videosmall_thumbnail{
+    width: inherit;
+    height: 90px;
+    
+}
+.videosmall_right{
+    margin-right: 20px;
+    max-width: 220px;
+}
+.videothumb_title{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.01px;
+}
+.videosmall_texts{
+    margin-top: 5px !important;
+    align-self: bottom;
+}
+.videosmall_texts > p{
+    font-size: 13px !important;
+}
+.channelView_S_channelView{
+    flex-direction: column;
+    width: 270px;
+    margin-top: 120px !important;
+    
+}
+.Si_channelView{
+    height: 150px;
+    width: 250px !important;
+}
+
+
+
+
+
+
+

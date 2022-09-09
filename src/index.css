@@ -1,0 +1,25 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+
+}
+
+.Home {
+  color: #fff;
+  background-color: #181818;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

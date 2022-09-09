@@ -1,0 +1,162 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_img {
+    width: 100px;
+    height: 4vh;
+}
+
+.login_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dadce0;
+    border-radius: 7px;
+    padding: 30px;
+    height: 520px;
+    width: 440px;
+    position: absolute;
+}
+
+.login_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px !important;
+}
+
+.login_sub {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px !important;
+}
+
+.login_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_text {
+    margin-top: 20px !important;
+}
+
+.login_info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: #5f6388;
+    font-size: 14px;
+}
+
+.login_info>a {
+    color: #1a73e8;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.login_button {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0;
+}
+
+.login_btn {
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+}
+
+.login_button :first-of-type {
+    padding-left: 0;
+}
+
+.login_loading {
+    animation: a-s 500ms 500ms 1 forwards;
+    background-color: #f1f1f1;
+    height: 4px;
+    width: 114%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin: -30px -10px 30px -10px;
+    position: relative;
+
+
+}
+
+.login_loading::before {
+    animation: a-1b 20s 500ms linear forwards;
+    ;
+    background-color: #1a73e8;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transform: translateX(-300px);
+    width: 100%;
+}
+
+@keyframes a-s {
+    100% {
+        opacity: 1;
+    }
+}
+    @keyframes a-1b {
+        0% {
+            transform: translateX(-300px);
+        }
+
+        5% {
+            transform: translateX(-240px);
+        }
+        15% {
+            transform: translateX(-30px);
+        }
+        25% {
+            transform: translateX(-30px);
+        }
+        30% {
+            transform: translateX(-20px);
+        }
+        45% {
+            transform: translateX(-20px);
+        }
+        50% {
+            transform: translateX(-15px);
+        }
+        65% {
+            transform: translateX(-15px);
+        }
+        70% {
+            transform: translateX(-10px);
+        }
+        95% {
+            transform: translateX(-10px);
+        }
+        100% {
+            transform: translateX(-5px);
+        }
+
+    }
+    .login_fade{
+        opacity: 0.5;
+    }
+
+    @media(max-width: 600px) {
+        .login_content {
+            border: none;
+            position: absolute;
+            width: 85vw;
+            margin: 0;
+            top: 0;
+        }
+    }

@@ -1,0 +1,148 @@
+.watch{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100vw;
+    align-items: center;
+}
+.watch_wrap{
+    display: flex;
+}
+.watch_left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.watch_video{
+    width: 66vw;
+    height: 60vh;
+    outline: none;
+}
+.watch_leftbtn{
+    margin-top: 10px;
+    border-bottom: 1px solid #292929;
+}
+.watch_title{
+font-weight: 400;
+line-height: 2.4rem;
+font-size: 18px;
+}
+.watch_videoinfo{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.watch_likebtncontainer{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.watch_icon{
+margin-right: 5px;
+font-size: 28px !important;
+}
+.color gray{
+    color: #909090;
+}
+.watch_likebtncontainer{
+    margin-right: 15px;
+}
+.watch_likebtncontainer > p{
+    color: #999;
+    font-weight: 500;
+    font-size: 14px;
+}
+.watch_likedislike{
+    display: flex;
+    background-color: #606060;
+    height: 2px;
+    overflow: hidden;
+    margin-top: 10px;
+    position: relative;
+}
+.watch_likedislike ::before {
+    background-color:  #818181;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    transform: translateX(-5px);
+}
+.watch_videoinforight{
+    display: flex;
+    align-items: baseline;
+}
+.watch_likewrap{
+    display: flex;
+    align-items: center;
+}
+.share_icon{
+    transform: rotate(180deg) rotateX(180deg);
+    font-size: 30px !important;
+}
+.play.add_icon{
+    font-size: 28 !important;
+}
+.watch_right{
+    max-height: 100%;
+    overflow: hidden;
+    margin-top: -125px;
+    
+}
+
+.person{
+    font-size: 30px !important;
+    border-radius: 100%;
+    background-color: #d2cdcd;
+    padding: 2px;
+}
+.watch_details{
+    margin-top: 20px;
+    border-bottom: 1px solid #292929;
+    padding-bottom: 20px;
+}
+.watch_subcount{
+    font-size: 13px;
+}
+.watch_personwrap{
+    align-items: center;
+}
+.watch_description{
+    max-width: 600px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.watch_description > p {
+    font-size: 14px;
+    word-spacing: 1px;
+   line-height: 22px;
+   max-height: 60px;
+   overflow: hidden;
+}
+.watch_detailscontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.watch_subbtn{
+    padding: 13px;
+    background-color: #cf1818;
+    border: none;
+    color: #d2cdcd;
+    border-radius: 3px;
+    text-align: right;
+    cursor: pointer;
+}
+.watch_subbtn :hover {
+background-color: #999999;
+color: #cf1818;
+}
+
+.watch_showmore{
+    color: #999999;
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
